@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    background-color: #a7b3c5;
+}
+
+#header {
+    height: 100px;
+    width: 99.5%;
+    margin-left: -8px;
+    margin-top: -8px;
+    border: none;
+    background-color: #47505c;
+}
+
+#header p {
+    margin-top: -5px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.content {
+    padding-top: 80px;
+
+}
+
+label, #results p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#salaryAmount {
+    border: none;
+    height: 30px;
+    width: 270px;
+}
+
+#type {
+    border: none;
+    height: 30px;
+    width: 270px;
+}
+
+#result {
+    border: none;
+    height: 30px;
+    width: 270px;
+    background-color: #a7b3c5;
+}
+
+#btnCompute {
+    height: 60px;
+    width: 300px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+}
+
+#btnCompute:hover {
+    color: white;
+    background-color: #8c98a2;
+    box-shadow: 0 5px whitesmoke;
+}
+
+#btnCompute:active {
+    color: white;
+    background-color: #47505c;
+    box-shadow: 0 5px whitesmoke;
+    transform: translateY(4px);
+}
+
+#results {
+    height: 180px;
+    width: 500px;
+    background-color: #47505c;
+    box-shadow: 0 5px whitesmoke;
+    border-radius: 10px;
+    color: white;
+}
